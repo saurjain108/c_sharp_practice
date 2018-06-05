@@ -23,6 +23,7 @@ namespace practice_1
             int sum = number1 + number2;
             Console.WriteLine("The sum is " + sum);
             Console.WriteLine("The sum is " + sum.ToString());
+            Console.WriteLine("The sum is " + (number1 + number2));
 
             Console.ReadLine();
 
