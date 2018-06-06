@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace introduction
-{
     class Program
     {
-        static void Main(string[] args)
+        static void Main1()
         {
+        Console.WriteLine("Welcome to this git library second time");
+        Console.ReadLine();
+         }
+    static void Main()
+        {
+        Console.WriteLine("Welcome to this git library ");
+        Console.ReadLine();
+        Main1();
         }
     }
-}
+ 
