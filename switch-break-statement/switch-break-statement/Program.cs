@@ -9,15 +9,11 @@ class Program
         switch (i)
         {
             case 10:
-                Console.WriteLine("your number is 10");
-                Console.ReadLine();
-                break;
+                
             case 20:
-                Console.WriteLine("your number is 20");
-                Console.ReadLine();
-                break;
+                
             case 30:
-                Console.WriteLine("your number is 30");
+                Console.WriteLine("your number is {0}", i); 
                 Console.ReadLine();
                 break;
             default:
